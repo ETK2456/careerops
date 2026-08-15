@@ -35,11 +35,10 @@ export/import.
 
 The board pack also preserves the project's contribution doctrine, including:
 
-- No automatic application sending.
+- No automatic application sending (`no_auto_apply` / `no_auto_send`).
 - No invented facts or experience.
 - Canonical structured resume data.
 - Memory provenance.
-- No automatic sending.
 
 The board pack format is for portable career data, not private deployment
 secrets or credentials.

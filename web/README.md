@@ -10,10 +10,9 @@ cp config.example.js config.js
 
 Set:
 
-
-- `supabaseUrl` — your Supabase project URL
-- `supabaseAnonKey` — anon or publishable key (safe for browser; protect data with RLS)
-- `donateUrl` — optional
+- `supabaseUrl` — your Supabase project URL  
+- `supabaseAnonKey` — anon or publishable key (safe for browser; protect data with RLS)  
+- `donateUrl` — optional  
 - `analyticsId` — optional Google Analytics Measurement ID (for example `G-XXXXXXXXXX`). Leave empty to disable analytics.
 
 `config.js` is gitignored in the public repo.
