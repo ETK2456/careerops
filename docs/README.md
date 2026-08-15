@@ -12,6 +12,7 @@ Product homepage: see the root [README](../README.md).
 
 - [ARCHITECTURE.md](ARCHITECTURE.md) — surfaces, public vs private
 - [LOCAL_FIRST.md](LOCAL_FIRST.md) — ownership, self-host, export
+- [BOARD_PACK.md](BOARD_PACK.md) — board pack schema changelog and import/export guidance
 - [PRIVACY.md](PRIVACY.md) — evidence, secrets, vault
 - [SECURITY.md](../SECURITY.md) — vulnerability reporting
 - [supabase/README.md](../supabase/README.md) — schema, migrations, credential vault
