@@ -146,4 +146,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Community norms: [CODE_OF_CONDUCT.md](CO
 ## License
 
 Copyright © Telivity and contributors.  
-Licensed under the [Apache License, Version 2.0](LICENSE).
+Licensed under the [... line 148: Apache 2.0
+## Accessibility
+Added as part of PR #32 (Issue #20):
+- Skip-to-content link is first child of `<body>`, hidden until `:focus` (offscreen pattern)
+- Targets `#stage` with `tabindex="-1"` + JS `focus()` so keyboard and screen reader focus moves together
+- Visible focus outline preserved for keyboard users
+- Verified no board rendering regression
+
+## Security
+- `.env` and `web/config.js` are gitignored, never commit secrets
+- If API key leaks, revoke immediately via provider dashboard
