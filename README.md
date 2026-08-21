@@ -4,6 +4,8 @@ Store every accomplishment. Tailor every application. Own your career data.
 
 [**Try the demo**](https://careerops.telivity.app) · [**Quick start**](#quick-start)
 
+If you are self-hosting, see the [self-host troubleshooting guide](docs/TROUBLESHOOTING.md).
+
 Local-first · Open source · User-authored evidence only · Apache 2.0
 
 ![Memory → Promote → Resume → Interview](docs/assets/memory-promote.gif)
